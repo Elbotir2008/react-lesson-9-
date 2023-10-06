@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  overflow-x: hidden;
+}
+.new-cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.card {
+  padding: 10px;
+  cursor: pointer;
+}
+.img {
+  width: 199px;
+  height: 190px;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+h3 {
+  width: 130px;
+  height: 30px;
+  padding: 5px;
+  background-color: #fff;
+  margin: 150px 10px;
+}
+.description {
+  width: 200px;
+}
+input {
+  padding: 10px;
+  margin: 10px 300px;
+  border-radius: 5px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #ccc;
+  outline: none;
+}
